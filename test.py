@@ -5,6 +5,16 @@ import numpy as np
 import gzip
 import pickle
 
+
+from tensorflow.keras.models import load_model
+import matplotlib.pyplot as plt
+
+# Load the generator model
+@st.cache_resource
+def load_generator_model():
+    return load_model("saved_generator_model.keras")
+
+
 def main():
     # Título de la aplicación
     st.title("Hadwritten Digit Image Generator")
