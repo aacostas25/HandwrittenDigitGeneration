@@ -1,0 +1,20 @@
+import streamlit as st
+from PIL import Image
+import os
+import numpy as np
+import tensorflow as tf
+from tensorflow.keras.preprocessing.image import img_to_array
+import gzip
+import pickle
+
+def main():
+    # Título de la aplicación
+    st.title("Hadwritten Digit Image Generator")
+
+        
+    st.write("""
+    ### What can you do?
+    You can generate images of hanswritten digits 0-9. Generate syntethic MNIST-like images using cGan model.
+    
+    """)
+    st.image('MNISTpicture.png', caption="MNIST")
