@@ -4,4 +4,4 @@ numpy
 scikit-learn
 seaborn
 plotly
-tensorflow>=2.11,<2.20
+tensorflow==2.13.0
