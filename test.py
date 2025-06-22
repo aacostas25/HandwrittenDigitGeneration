@@ -18,3 +18,5 @@ def main():
     
     """)
     st.image('MNISTpicture.png', caption="MNIST")
+
+    selected_digit = st.selectbox("Select a digit (0–9) to generate images:", list(range(10)))
