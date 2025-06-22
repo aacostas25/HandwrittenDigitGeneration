@@ -2,8 +2,8 @@ import streamlit as st
 from PIL import Image
 import os
 import numpy as np
-import tensorflow as tf
-from tensorflow.keras.preprocessing.image import img_to_array
+#import tensorflow as tf
+#from tensorflow.keras.preprocessing.image import img_to_array
 import gzip
 import pickle
 
